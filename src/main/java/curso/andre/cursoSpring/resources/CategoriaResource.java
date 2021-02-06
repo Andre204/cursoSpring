@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 import curso.andre.cursoSpring.domain.Categoria;
 import curso.andre.cursoSpring.services.CategoriaService;
 
+//A anotação Controller indica que nessa classe terão métodos que vão manipular as telas do sistema ou interface do usuário
 @RestController
 @RequestMapping(value="/categorias")
 public class CategoriaResource {
